@@ -1,4 +1,6 @@
-const { jsx } = require("react/jsx-runtime");
+//const { jsx } = require("react/jsx-runtime");
 
-consl
-jsx
+console.log("===Variables===");
+
+var text = "Name - Rakumar Rana";
+console.log(text);
