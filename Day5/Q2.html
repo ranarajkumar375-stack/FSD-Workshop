@@ -1,0 +1,23 @@
+
+ <html>
+  <body>
+    <script>
+       //Create a rest operator that take input from user and provide the sum of that number.
+      function sum(...values) {
+  
+  let total = 0;
+  for (let i in values) {
+    total = total + parseInt(values[i]);
+  }
+
+  console.log("Total = " + total);
+}
+
+let input = prompt("Enter numbers separated by commas:"); 
+let nums = input.split(",");
+
+sum(...nums);
+
+    </script>
+  </body>
+ </html>
